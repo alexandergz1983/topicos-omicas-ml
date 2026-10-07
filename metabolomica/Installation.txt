@@ -1,0 +1,34 @@
+* conda create -n MetabWorkflowTutorial python=3.7.3
+
+* conda activate MetabWorkflowTutorial
+
+* conda config --add channels cimcb # esencial
+
+* conda config --add channels conda-forge # esencial
+
+* conda config --add channels defaults # esencial
+
+* conda config --add channels bioconda # opcional
+
+**Packages:**
+
+* conda install pandas=0.24.2
+
+* conda install numpy=1.16.3
+
+* conda install bokeh=1.1.0
+
+* conda install Jinja2==3.0.3
+
+* conda install xlrd=1.2.0
+
+* conda install openpyxl=2.6.1
+
+* conda install cimcb_lite=1.0.3
+
+**Aditionals (si te hace falta), si ya los tienes integrados en visual code no hace (falta) solo activa el ambiente MetabWorkflowTutorial y acepta la instalación del kernel:**
+
+* conda install jupyter=1.0
+
+* conda install notebook=6.4.7
+
